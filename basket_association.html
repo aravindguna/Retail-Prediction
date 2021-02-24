@@ -1,0 +1,462 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>antecedents</th>
+      <th>consequents</th>
+      <th>antecedent support</th>
+      <th>consequent support</th>
+      <th>support</th>
+      <th>confidence</th>
+      <th>lift</th>
+      <th>leverage</th>
+      <th>conviction</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>(sausage, yogurt)</td>
+      <td>(whole milk)</td>
+      <td>0.01</td>
+      <td>0.16</td>
+      <td>0.00</td>
+      <td>0.26</td>
+      <td>1.62</td>
+      <td>0.00</td>
+      <td>1.13</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>(sausage, rolls/buns)</td>
+      <td>(whole milk)</td>
+      <td>0.01</td>
+      <td>0.16</td>
+      <td>0.00</td>
+      <td>0.21</td>
+      <td>1.35</td>
+      <td>0.00</td>
+      <td>1.07</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>(soda, sausage)</td>
+      <td>(whole milk)</td>
+      <td>0.01</td>
+      <td>0.16</td>
+      <td>0.00</td>
+      <td>0.18</td>
+      <td>1.14</td>
+      <td>0.00</td>
+      <td>1.03</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>(semi-finished bread)</td>
+      <td>(whole milk)</td>
+      <td>0.01</td>
+      <td>0.16</td>
+      <td>0.00</td>
+      <td>0.18</td>
+      <td>1.11</td>
+      <td>0.00</td>
+      <td>1.02</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>(rolls/buns, yogurt)</td>
+      <td>(whole milk)</td>
+      <td>0.01</td>
+      <td>0.16</td>
+      <td>0.00</td>
+      <td>0.17</td>
+      <td>1.08</td>
+      <td>0.00</td>
+      <td>1.02</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>(sausage, whole milk)</td>
+      <td>(yogurt)</td>
+      <td>0.01</td>
+      <td>0.09</td>
+      <td>0.00</td>
+      <td>0.16</td>
+      <td>1.91</td>
+      <td>0.00</td>
+      <td>1.09</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>(detergent)</td>
+      <td>(whole milk)</td>
+      <td>0.01</td>
+      <td>0.16</td>
+      <td>0.00</td>
+      <td>0.16</td>
+      <td>1.03</td>
+      <td>0.00</td>
+      <td>1.01</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>(ham)</td>
+      <td>(whole milk)</td>
+      <td>0.02</td>
+      <td>0.16</td>
+      <td>0.00</td>
+      <td>0.16</td>
+      <td>1.01</td>
+      <td>0.00</td>
+      <td>1.00</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>(processed cheese)</td>
+      <td>(rolls/buns)</td>
+      <td>0.01</td>
+      <td>0.11</td>
+      <td>0.00</td>
+      <td>0.14</td>
+      <td>1.32</td>
+      <td>0.00</td>
+      <td>1.04</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>(packaged fruit/vegetables)</td>
+      <td>(rolls/buns)</td>
+      <td>0.01</td>
+      <td>0.11</td>
+      <td>0.00</td>
+      <td>0.14</td>
+      <td>1.29</td>
+      <td>0.00</td>
+      <td>1.04</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>(seasonal products)</td>
+      <td>(rolls/buns)</td>
+      <td>0.01</td>
+      <td>0.11</td>
+      <td>0.00</td>
+      <td>0.14</td>
+      <td>1.29</td>
+      <td>0.00</td>
+      <td>1.04</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>(soda, rolls/buns)</td>
+      <td>(other vegetables)</td>
+      <td>0.01</td>
+      <td>0.12</td>
+      <td>0.00</td>
+      <td>0.14</td>
+      <td>1.15</td>
+      <td>0.00</td>
+      <td>1.02</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>(frankfurter)</td>
+      <td>(other vegetables)</td>
+      <td>0.04</td>
+      <td>0.12</td>
+      <td>0.01</td>
+      <td>0.14</td>
+      <td>1.12</td>
+      <td>0.00</td>
+      <td>1.02</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>(whole milk, yogurt)</td>
+      <td>(sausage)</td>
+      <td>0.01</td>
+      <td>0.06</td>
+      <td>0.00</td>
+      <td>0.13</td>
+      <td>2.18</td>
+      <td>0.00</td>
+      <td>1.08</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>(pot plants)</td>
+      <td>(other vegetables)</td>
+      <td>0.01</td>
+      <td>0.12</td>
+      <td>0.00</td>
+      <td>0.13</td>
+      <td>1.05</td>
+      <td>0.00</td>
+      <td>1.01</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>(frozen meals)</td>
+      <td>(other vegetables)</td>
+      <td>0.02</td>
+      <td>0.12</td>
+      <td>0.00</td>
+      <td>0.13</td>
+      <td>1.04</td>
+      <td>0.00</td>
+      <td>1.01</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>(red/blush wine)</td>
+      <td>(rolls/buns)</td>
+      <td>0.01</td>
+      <td>0.11</td>
+      <td>0.00</td>
+      <td>0.13</td>
+      <td>1.16</td>
+      <td>0.00</td>
+      <td>1.02</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>(meat)</td>
+      <td>(other vegetables)</td>
+      <td>0.02</td>
+      <td>0.12</td>
+      <td>0.00</td>
+      <td>0.13</td>
+      <td>1.04</td>
+      <td>0.00</td>
+      <td>1.01</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>(sausage, whole milk)</td>
+      <td>(rolls/buns)</td>
+      <td>0.01</td>
+      <td>0.11</td>
+      <td>0.00</td>
+      <td>0.13</td>
+      <td>1.15</td>
+      <td>0.00</td>
+      <td>1.02</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>(soft cheese)</td>
+      <td>(yogurt)</td>
+      <td>0.01</td>
+      <td>0.09</td>
+      <td>0.00</td>
+      <td>0.13</td>
+      <td>1.47</td>
+      <td>0.00</td>
+      <td>1.05</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>(detergent)</td>
+      <td>(yogurt)</td>
+      <td>0.01</td>
+      <td>0.09</td>
+      <td>0.00</td>
+      <td>0.12</td>
+      <td>1.44</td>
+      <td>0.00</td>
+      <td>1.04</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>(berries)</td>
+      <td>(other vegetables)</td>
+      <td>0.02</td>
+      <td>0.12</td>
+      <td>0.00</td>
+      <td>0.12</td>
+      <td>1.00</td>
+      <td>0.00</td>
+      <td>1.00</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>(oil)</td>
+      <td>(soda)</td>
+      <td>0.01</td>
+      <td>0.10</td>
+      <td>0.00</td>
+      <td>0.12</td>
+      <td>1.25</td>
+      <td>0.00</td>
+      <td>1.03</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>(whole milk, yogurt)</td>
+      <td>(rolls/buns)</td>
+      <td>0.01</td>
+      <td>0.11</td>
+      <td>0.00</td>
+      <td>0.12</td>
+      <td>1.09</td>
+      <td>0.00</td>
+      <td>1.01</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>(sausage, whole milk)</td>
+      <td>(soda)</td>
+      <td>0.01</td>
+      <td>0.10</td>
+      <td>0.00</td>
+      <td>0.12</td>
+      <td>1.23</td>
+      <td>0.00</td>
+      <td>1.03</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>(chocolate)</td>
+      <td>(rolls/buns)</td>
+      <td>0.02</td>
+      <td>0.11</td>
+      <td>0.00</td>
+      <td>0.12</td>
+      <td>1.08</td>
+      <td>0.00</td>
+      <td>1.01</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>(other vegetables, soda)</td>
+      <td>(rolls/buns)</td>
+      <td>0.01</td>
+      <td>0.11</td>
+      <td>0.00</td>
+      <td>0.12</td>
+      <td>1.07</td>
+      <td>0.00</td>
+      <td>1.01</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>(chewing gum)</td>
+      <td>(yogurt)</td>
+      <td>0.01</td>
+      <td>0.09</td>
+      <td>0.00</td>
+      <td>0.12</td>
+      <td>1.36</td>
+      <td>0.00</td>
+      <td>1.03</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>(detergent)</td>
+      <td>(rolls/buns)</td>
+      <td>0.01</td>
+      <td>0.11</td>
+      <td>0.00</td>
+      <td>0.12</td>
+      <td>1.06</td>
+      <td>0.00</td>
+      <td>1.01</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>(ice cream)</td>
+      <td>(rolls/buns)</td>
+      <td>0.02</td>
+      <td>0.11</td>
+      <td>0.00</td>
+      <td>0.11</td>
+      <td>1.04</td>
+      <td>0.00</td>
+      <td>1.01</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>(hard cheese)</td>
+      <td>(rolls/buns)</td>
+      <td>0.01</td>
+      <td>0.11</td>
+      <td>0.00</td>
+      <td>0.11</td>
+      <td>1.03</td>
+      <td>0.00</td>
+      <td>1.00</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>(beverages)</td>
+      <td>(soda)</td>
+      <td>0.02</td>
+      <td>0.10</td>
+      <td>0.00</td>
+      <td>0.11</td>
+      <td>1.16</td>
+      <td>0.00</td>
+      <td>1.02</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>(fruit/vegetable juice)</td>
+      <td>(rolls/buns)</td>
+      <td>0.03</td>
+      <td>0.11</td>
+      <td>0.00</td>
+      <td>0.11</td>
+      <td>1.00</td>
+      <td>0.00</td>
+      <td>1.00</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>(flour)</td>
+      <td>(tropical fruit)</td>
+      <td>0.01</td>
+      <td>0.07</td>
+      <td>0.00</td>
+      <td>0.11</td>
+      <td>1.62</td>
+      <td>0.00</td>
+      <td>1.05</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>(herbs)</td>
+      <td>(yogurt)</td>
+      <td>0.01</td>
+      <td>0.09</td>
+      <td>0.00</td>
+      <td>0.11</td>
+      <td>1.25</td>
+      <td>0.00</td>
+      <td>1.02</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>(other vegetables, rolls/buns)</td>
+      <td>(soda)</td>
+      <td>0.01</td>
+      <td>0.10</td>
+      <td>0.00</td>
+      <td>0.11</td>
+      <td>1.11</td>
+      <td>0.00</td>
+      <td>1.01</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>(processed cheese)</td>
+      <td>(root vegetables)</td>
+      <td>0.01</td>
+      <td>0.07</td>
+      <td>0.00</td>
+      <td>0.11</td>
+      <td>1.51</td>
+      <td>0.00</td>
+      <td>1.04</td>
+    </tr>
+  </tbody>
+</table>
